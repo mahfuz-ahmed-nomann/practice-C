@@ -4,7 +4,8 @@ int bintodes(int p);
 int power(int num,int power);
 
 int main() {
-    int k = 111;
+    int k ;
+    scanf("%d",&k);
     int l = bintodes(k);
     printf("%d",l);
     return 0;
